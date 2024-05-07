@@ -33,6 +33,7 @@ a:hover {
   grid-template-columns: 2fr 7fr 7fr 2fr;
 }
 
+/* Upper box */
 .leftbox {
   padding: 30px 30px;
   grid-column: 2;
@@ -83,13 +84,72 @@ figure {
   margin: 10px;
 }
 
+/* Lowerbox */
 .bigtextdecoration {
+  display: inline-block;
+  color: #c6c6c6;
   text-transform: uppercase;
   grid-column: 2;
-  font-size: 4.5rem;
+  font-size: 7rem;
   text-align: right;
-  justify-self: center;
+  margin: auto 2rem auto 0px;
+  transition: 0.15s;
 }
+
+.bigtextdecoration:hover {
+  color: orange;
+}
+
+/* Lower Box - Items part */
+.benefits {
+  margin: 0px;
+  padding: 5rem 2rem;
+  background-color: white;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.items img {
+  width: 3rem;
+  margin-left: auto;
+  
+}
+
+.items h2 {
+  margin: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.items p {
+  font-size: 1.2rem;
+  grid-column: 2;
+  margin: 0px 20px;
+}
+
+.footer {
+  margin: 0px;
+  background-color: white;
+  height: 6rem ;
+
+}
+
+.footer h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #c6c6c6;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 6rem;
+}
+
 
 
 a {
@@ -106,6 +166,13 @@ a {
   left: calc(4.5rem / 2 + 30px);
 }
 
+ul {
+  list-style: none;
+}
+
+body {
+  margin: 0px;
+}
 html {
   margin: 0px;
   background-color: #e7e7e7;
