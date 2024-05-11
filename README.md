@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Surfboard Store First Concept
 ## A exemple store project written with HTML and CSS
 
